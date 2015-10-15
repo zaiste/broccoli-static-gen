@@ -1,0 +1,17 @@
+{% extends "layouts/default.html" %}
+
+{% block content %}
+<h1>{{ "ala ma kota foo" | replace("foo", "bar") | capitalize }}</h1>
+
+<div class="jumbotron">
+  <h2>Hello</h2>
+  <section>
+    <aside>What is it about?</aside>
+    <article>Neat is an open source semantic grid framework built on top of Sass and Bourbon…</article>
+  </section>
+</div>
+
+<script src="bower_components/swagger-parser/dist/swagger-parser.js"></script>
+<script>
+</script>
+{% endblock %}
